@@ -1,0 +1,456 @@
+/*---------------------------- preloader area ----------------------------*/
+
+.loader_bg {
+     position: fixed;
+     z-index: 9999999;
+     background: #fff;
+     width: 100%;
+     height: 100%;
+}
+
+.loader {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.loader img {
+     width: 280px;
+}
+
+/*tittle  of heading of new tab section css start */
+.banner-bg-1{
+   background: linear-gradient(176deg , rgb(66 1 6 / 49%) 0%, rgb(235 231 185) 47%, rgb(66 1 1 / 60%) 100%);
+}
+
+banner-bg-1::before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background: rgba(34, 34, 34, 0.4);
+}
+ 
+.banner{
+    position: relative;
+}
+ 
+.banner h2{
+    color: #420106;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    position: relative;
+}
+.banner-bg-contact h2{
+    color: #fafafa;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    position: relative;
+}
+.banner h2::after {
+   background: #420106;
+    content: "";
+    height: 58px;
+    left: -15px;
+    position: absolute;
+    top: 16px;
+    width: 10px;
+}
+ 
+.page-title-link li{
+   display: inline-block;
+    position: relative;
+    top: -18px;
+    left: 36px;
+}
+ 
+.page-title-link li a {
+   color: #420106;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+ 
+.page-title-link li a:hover {
+    color: #d1b75e;
+}
+/** hottest section **/
+
+.qote {
+ background: #470005;
+    padding: 31px 0 0px 0;
+}
+
+.qote .qote-heading {
+     padding-bottom: 0;
+     text-align: left;
+}
+
+.qote .qote-title h2 {
+     color:#dcd6a9;
+}
+
+.qote .qote_box {
+    position: relative;
+    background-color: #dcd6a9;
+    padding: 60px 2px;
+}
+
+.qote .qote_box::after {
+     position: absolute;
+     content: "";
+     top: 0;
+     bottom: 0;
+     left: -30px;
+     width: 31px;
+     height: 100%;
+     background: url(../images/h_cross.png);
+     background-repeat: no-repeat;
+     display: block;
+     background-position: center center;
+}
+
+.qote .qote_box p {
+     color: #470005;
+     font-size: 17px;
+     line-height: 32px;
+     font-weight: 500;
+     text-align: justify;
+}
+
+
+/** end hottest section **/
+.qote-title h2{
+    font-size: 50px;
+    color: #470005;
+    line-height: 52px;
+    font-weight: bold;
+    padding: 130px 10px 10px 10px;
+}
+
+/*service section start  css */
+.service_section {
+  position: relative;
+}
+
+.service_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 55px;
+  border-radius: 5px;
+}
+
+.service_section .box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90px;
+  min-width: 90px;
+  height: 90px;
+  padding: 10px;
+  margin-bottom: -45px;
+  position: relative;
+}
+
+.service_section .box .img-box img {
+  max-width: 50px;
+  max-height: 50px;
+  position: relative;
+  z-index: 3;
+}
+
+.service_section .box .img-box::before, .service_section .box .img-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e0daad;
+  z-index: 2;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.service_section .box .img-box::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.service_section .box .img-box::after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.service_section .box .detail-box {
+  background-color:#470005;
+  padding: 75px 20px 20px 20px;
+  text-align: center;
+}
+
+.service_section .box .detail-box h5 {
+  font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+.service_section .box .detail-box p{
+    color: #ffffff;
+}
+
+.service_section .box .detail-box a {
+ ont-weight: 600;
+    font-size: 17px;
+    background: #f4f1c3;
+    color: #8b0000;
+    padding: 10px;
+    border-radius: 3rem;
+}
+
+.service_section .box .detail-box a:hover {
+  color: #ffffff;
+    background: transparent;
+}
+
+.service_section .box:hover .img-box::before {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+/*why section css */
+.custom_heading {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
+.why_section .row {
+  padding: 35px 0;
+}
+
+.why_section .row .col-md-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 25px 0;
+}
+
+.why_section .img_box {
+  min-width: 125px;
+  min-height: 125px;
+  margin-right: 25px;
+border: 27.5px solid #470005;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.why_section .img_box:hover{
+    border: 1.5px solid #470005;
+}
+
+.why_section .img_box img {
+  width: 50px;
+}
+
+.why_section .detail_box h5 {
+ font-weight: bold;
+    color: #470005;
+    font-size: 20px;
+}
+
+
+
+/*------------------------------------------------------------------
+    Menu
+-------------------------------------------------------------------*/
+
+.menu-box{
+     padding: 70px 0px;
+}
+
+.heading-title{
+     margin-bottom: 50px;
+}
+.heading-title h2{
+     color: #010101;
+     font-size: 28px;
+     font-family: 'Rubik', sans-serif;
+     font-weight: 500;
+}
+.heading-title p{
+     font-size: 18px;
+     font-weight: 200;
+     margin: 0px;
+}
+
+.inner-menu-box{}
+.inner-menu-box .nav-pills .nav-link.active{
+     background: #420106;
+    text-align: center;
+}
+.inner-menu-box .nav-pills .nav-link{
+    font-size: 20px;
+    font-weight: 600;
+}
+.inner-menu-box .nav-pills .nav-link:hover{
+     background: #ccbd9e;
+     color: #ffffff;
+}
+
+.gallery-single{
+     margin-bottom: 30px;
+}
+
+.gallery-single {
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.why-text {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    right: 0;
+    height: 100%;
+    background: rgba(207, 166, 113, 0.9);
+    padding: 12px 12px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.why-text h4{
+     color: #ffffff;
+     font-size: 16px;
+     font-weight: 500;
+     font-family: 'Rubik', sans-serif;
+}
+.why-text p{
+     color: #ffffff;
+     font-size: 13px;
+     border-bottom: 1px dashed #010101;
+     margin: 0px;
+     padding-bottom: 15px;
+     margin-top: 0px;
+     margin-bottom: 15px;
+}
+.why-text h5{
+     font-size: 18px;
+     font-weight: 600;
+     color: #ffffff;
+}
+
+.gallery-single:hover .why-text{
+     bottom: 0px;
+}
+
+
+/*------------------------------------------------------------------
+    Gallery
+-------------------------------------------------------------------*/
+
+.gallery-box{
+     padding: 70px 0px;
+}
+.tz-gallery{
+     margin-top: 30px;
+}
+.tz-gallery .lightbox img {
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+.tz-gallery .lightbox{
+     border: 3px solid #d65106;
+     display: inline-block;
+     margin-bottom: 30px;
+}
+
+
+
+/*form section css*/
+.tax-form{
+     background: #caba9c;
+     padding: 2rem;
+}
+.tax-form h2{
+     text-align: center;
+    transform: scale(1.5);
+    padding-bottom: 3rem;
+    color: #420106;
+    font-weight: 500;
+}
+body > div.menu-box > div > div.row.inner-menu-box > div:nth-child(3) > div > form > div:nth-child(3) > div{
+     width: 100%;
+     height: 8vh;
+}
+
+ .tax-form label{
+     color: #420106;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ .tax_btn{
+     width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #500d12;
+    border-radius: 40px;
+    padding: 10px 0px;
+    margin-top: -30px;
+ }
+ .tax_btn:hover{
+     background: transparent;
+     color: #500d12;
+ }
