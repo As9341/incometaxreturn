@@ -229,7 +229,7 @@ banner-bg-1::before{
 }
 
 .service_section .box .detail-box a {
- ont-weight: 600;
+font-weight: 600;
     font-size: 17px;
     background: #f4f1c3;
     color: #8b0000;
@@ -307,7 +307,31 @@ border: 27.5px solid #470005;
 
 /*------------------------------------------------------------------
     Menu
+    
 -------------------------------------------------------------------*/
+
+
+#v-pills-home-tab
+{
+    background-color: wheat;
+    color:black
+}
+.services_head
+{
+    text-align: center;
+   
+}
+.new5 {
+    border: 5px solid #420106;
+    width: 50%;
+    border-radius: 5px;
+  }
+  .servicepara
+  {
+      color:#000;
+      font-size:16px;
+      font-weight: 400;
+  }
 
 .menu-box{
      padding: 70px 0px;
@@ -328,10 +352,10 @@ border: 27.5px solid #470005;
      margin: 0px;
 }
 
-.inner-menu-box{}
+
 .inner-menu-box .nav-pills .nav-link.active{
      background: #420106;
-    text-align: center;
+    
 }
 .inner-menu-box .nav-pills .nav-link{
     font-size: 20px;
