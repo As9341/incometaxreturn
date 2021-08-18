@@ -361,8 +361,7 @@ button {
     color: #fffdfd;
     background-color: #470005;
 }
-
-/*.contact_bt{
+.contact_bt{
     width: 150px;
     float: left;
     margin-left: 15px;
@@ -380,7 +379,7 @@ button {
 .contact_bt a:hover{
     color: #ffffff;
     background-color: #470005;
-}*/
+}
 .image_main {
     bottom: 100px;
     width: 45%;
