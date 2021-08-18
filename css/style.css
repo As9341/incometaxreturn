@@ -362,7 +362,7 @@ button {
     background-color: #470005;
 }
 
-.contact_bt{
+/*.contact_bt{
     width: 150px;
     float: left;
     margin-left: 15px;
@@ -380,7 +380,7 @@ button {
 .contact_bt a:hover{
     color: #ffffff;
     background-color: #470005;
-}
+}*/
 .image_main {
     bottom: 100px;
     width: 45%;
@@ -542,6 +542,7 @@ button {
     font-size: 40px;
     color: #1d1c24;
     font-weight: bold;
+    text-align: center;
 }
 .lorem_text {
    width: 100%;
@@ -551,7 +552,6 @@ button {
     margin-left: 0px;
     padding-bottom: 20px;
     line-height: 2rem;
-    text-align: justify;
 }
 .portfolio_section{
     width: 100%;
@@ -735,7 +735,7 @@ button {
 }
 
 
-.Contact_section {
+/*.Contact_section {
     width: 100%;
     float: left;
     padding-bottom: 90px;
@@ -817,7 +817,7 @@ textarea#comment::placeholder {
 .send_bt a:hover {
     color: #ffffff;
     background-color: #420106;
-}
+}*/
 
 .footer_section{
     width: 100%;
