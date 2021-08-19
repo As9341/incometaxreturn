@@ -596,7 +596,7 @@ button {
 }
 
 .text {
-  color: white;
+  color: #470005;
   font-size: 16px;
   padding: 16px 32px;
 }
@@ -734,7 +734,7 @@ button {
 }
 
 
-/*.Contact_section {
+.Contact_section {
     width: 100%;
     float: left;
     padding-bottom: 90px;
@@ -816,7 +816,7 @@ textarea#comment::placeholder {
 .send_bt a:hover {
     color: #ffffff;
     background-color: #420106;
-}*/
+}
 
 .footer_section{
     width: 100%;
